@@ -5,7 +5,7 @@ How To Install And Running
 `node -v`
 `npm -v`
 3. git clone https://github.com/bodantira/SoftwareSeni-Playwright.git
-4. run this command `npm init playwright@latest`
+4. run this command `npm install` and `npx playwright install`
 5. running test : 
 `npx playwright test --headed`
 6. running test(headless) : 
