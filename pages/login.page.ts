@@ -1,4 +1,3 @@
-// pages/login.page.ts
 import { Page, expect } from '@playwright/test';
 import { LoginElements } from '../elements/login.elements';
 
@@ -16,10 +15,7 @@ export class LoginPage {
   }
 
   async assertLoginSuccess() {
-    await expect(this.page).toHaveURL(/.*inventory.html/);
-  }
-
-  async assertLoginFailed() {
-    await expect(this.page.locator(LoginElements.errorMessage)).toBeVisible();
+    await expect(this.page).toHaveURL(/inventory.html/);
   }
 }
+
