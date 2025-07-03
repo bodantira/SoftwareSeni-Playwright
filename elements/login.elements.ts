@@ -1,8 +1,9 @@
-// elements/login.elements.ts
 export const LoginElements = {
-    usernameInput: '#user-name',          // static
-    passwordInput: '#password',           // static
-    loginButton: '#login-button',         // static
-    errorMessage: '[data-test="error"]',  // dynamic: only appears on error
+    usernameInput: '#user-name',  
+    passwordInput: '#password',      
+    loginButton: '#login-button',    
+    errorMessage: '[data-test="error"]',  
+    shoppingcarticon: '.shopping_cart_link',
+    DashboardTitle: '.app_logo'
   };
   

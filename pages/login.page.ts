@@ -16,6 +16,12 @@ export class LoginPage {
 
   async assertLoginSuccess() {
     await expect(this.page).toHaveURL(/inventory.html/);
+    await expect(this.page.locator(LoginElements.shoppingcarticon)).toBeVisible();
+    await expect(this.page.locator(LoginElements.DashboardTitle)).toContainText("Swag Labs")
+  }
+  async assertLoginFailed(errorMessage) {
+    await expect(this.page.locator(LoginElements.errorMessage)).toBeVisible();
+    await expect(this.page.locator(LoginElements.errorMessage)).toContainText(errorMessage)
   }
 }
 

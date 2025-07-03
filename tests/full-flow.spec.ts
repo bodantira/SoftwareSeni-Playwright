@@ -17,6 +17,6 @@ test('Full shopping flow', async ({ page }) => {
   await inventory.goToCart();
   await cart.removeFirstItem();
   await cart.clickCheckout();
-  await checkout.fillForm('John', 'Doe', '12345');
+  await checkout.fillForm('yudis', 'tira', '14567');
   await checkout.finish();
 });
