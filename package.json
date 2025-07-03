@@ -1,0 +1,22 @@
+{
+  "name": "softwareseni-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodantira/SoftwareSeni-Playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodantira/SoftwareSeni-Playwright/issues"
+  },
+  "homepage": "https://github.com/bodantira/SoftwareSeni-Playwright#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  }
+}
