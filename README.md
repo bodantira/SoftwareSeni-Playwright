@@ -9,7 +9,7 @@ How To Install And Running
 5. running test : 
 `npx playwright test --headed`
 6. running test(headless) : 
-`npx playwright test --headed```
+`npx playwright test --headed`
 7. show report : 
 `npx playwright show-report`
 
